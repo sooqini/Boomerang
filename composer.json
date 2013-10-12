@@ -1,8 +1,8 @@
 {
     "name": "sooqini/mail-context-extension",
-    "type": "library",
+    "type": "behat-extension",
     "description": "A context extension for Behat that provides steps for testing email output ",
-    "keywords": ["BDD", "behat", "email", "guerrillamail", "mailcatcher", "mailcatcher"],
+    "keywords": ["BDD", "behat", "email", "guerrillamail", "mailcatcher", "mailtrap"],
     "homepage": "https://github.com/sooqini/MailContextExtension",
     "authors": [
         {
@@ -13,8 +13,10 @@
     ],
     "require": {
         "behat/behat": "*",
+        "behat/mink-extension": "*",
         "nunzion/php-expect": "*",
-        "johnsn/guerrillamail": "*"
+        "johnsn/guerrillamail": "*",
+        "alexandresalome/mailcatcher": "*"
     },
     "autoload": {
         "psr-0": {
