@@ -1,5 +1,7 @@
 <?php
 
+namespace Sooqini\MailContext;
+
 use Behat\Behat\Context\Initializer\InitializerInterface;
 use Behat\Behat\Context\ContextInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
