@@ -1,9 +1,9 @@
 {
-    "name": "sooqini/mail-context-extension",
+    "name": "sooqini/boomerang",
     "type": "behat-extension",
     "description": "A context extension for Behat that provides steps for testing email output ",
     "keywords": ["BDD", "behat", "email", "guerrillamail", "mailcatcher", "mailtrap"],
-    "homepage": "https://github.com/sooqini/MailContextExtension",
+    "homepage": "https://github.com/sooqini/Boomerang",
     "authors": [
         {
             "name": "Nicholas Bransby-Williams",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Sooqini\\MailContext": "src/"
+            "Sooqini\\Boomerang": "src/"
         }
     }
 }
